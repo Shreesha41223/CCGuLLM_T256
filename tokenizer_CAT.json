@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[SOS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[EOS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "[PAD]": 0,
+      "[UNK]": 1,
+      "[SOS]": 2,
+      "[EOS]": 3,
+      "Separator": 4,
+      "Identifier": 5,
+      "Operator": 6,
+      "FormalParameter": 7,
+      "Keyword": 8,
+      "VariableDeclarator": 9,
+      "ReferenceType": 10,
+      "Modifier": 11,
+      "MethodDeclaration": 12,
+      "BasicType": 13,
+      "Null": 14,
+      "Annotation": 15,
+      "ConstructorDeclaration": 16,
+      "CatchClauseParameter": 17,
+      "ElementValuePair": 18,
+      "TypeParameter": 19,
+      "TryResource": 20,
+      "ClassDeclaration": 21
+    },
+    "unk_token": "[UNK]"
+  }
+}
